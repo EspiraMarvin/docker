@@ -1,16 +1,27 @@
-# docker-crash-course
-All course files for the Docker Crash Course
-##Docker
-####-It's a tool for managing containers
+##Docker -It's a tool for managing containers
 ## 1. Images and Containers
 
 ### Images
 ##### Features
 - Blue print for containers
 - They're read only (can not be edited, only a new one can be created)
-##### More Features
+##### They store
+- Runtime environment e.g specific node version
+- Application code
+- Any Dependencies
+- Extra configuration eg. env variables
+- Other commands
+##### Image Structure
+1. Parent Image
 
-- s
+
+### Containers
+- Are runnable instances of images
+##### Features
+- Runs our application as outlined by a docker image
+- Its completly isolated from any other processes in our computer (Isolate Process)
+
+
 ### Containers
 
 ## 2. Parent Images and Docker Hub
