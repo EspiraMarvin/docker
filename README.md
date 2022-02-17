@@ -55,14 +55,16 @@
 ## 4. .dockerignore
 ###### Ignore files such as node_modules or idea folders
 ## 5. starting and stopping containers
+
 ## 6. Layer Caching
-##### N/B: Docker Layer Caching - prevents re-downloading dependencies from package.json if it already downloaded.
+##### N/B: Docker Layer Caching - prevents re-downloading dependencies from package.json if it already downloaded. This is done by adding copying the package.json file to the working dir, installing dependencies, then copying the projects folder to the WORKDIR
 ###### WORKDIR /app
 ###### COPY package.json .
 ###### RUN npm/yarn install
 ###### COPY . .
 ###### EXPOSE 4000
 ###### CMD ["npm", "run", "dev"]
+
 ## 7. Managing Images and Containers
 ### Images (commands)
 
