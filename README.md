@@ -58,6 +58,7 @@
 
 ## 6. Layer Caching
 ##### N/B: Docker Layer Caching - prevents re-downloading dependencies from package.json if it already downloaded. This is done by adding copying the package.json file to the working dir, installing dependencies, then copying the projects folder to the WORKDIR
+##### FROM node:16-alpine
 ###### WORKDIR /app
 ###### COPY package.json .
 ###### RUN npm/yarn install
