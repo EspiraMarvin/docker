@@ -89,3 +89,4 @@
 ## 8. Volumes
 ## 9. Docker compose
 (credits: The Net Ninja)
+  quasar docker -> https://medium.com/@jwdobken/develop-quasar-applications-with-docker-a19c38d4a6ac
