@@ -20,10 +20,10 @@
 ### DOCKER FILE 
 #### commands
 ##### FROM node:16-alpine 
-######- parent image
+###### - parent image
 
 #### WORKDIR /app 
-######- working directory
+###### - working directory
 
 ####COPY package.json .
 ######- copies package.json to WORKDIR to enable Layer Caching and increase speed of Image build process / layer caching
