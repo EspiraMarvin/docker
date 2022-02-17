@@ -65,9 +65,24 @@
 ###### CMD ["npm", "run", "dev"]
 ## 7. Managing Images and Containers
 ### Images (commands)
-#### docker images  
-###### shows list of images
-Containers
-## 8. Volumes 
+
+##### $ docker images = shows list of images
+##### $ docker image rm <imagename> = deletes an image
+##### $ docker image rm <imagename> -f = deletes an image regardless if its being used in/by a container
+
+### Containers(commands)
+
+##### $ docker ps = shows list of containers runnning
+##### $ docker ps -a = shows list of containers
+##### $ docker container rm <containername> = deletes/removes a container
+
+### To delete all Images and Containers 
+####  $ docker system prune -a
+
+
+
+
+
+## 8. Volumes
 ## 9. Docker compose
-(credits:  Net Ninja)
+(credits: The Net Ninja)
