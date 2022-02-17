@@ -25,7 +25,7 @@
 #### WORKDIR /app 
 ###### - working directory
 
-####COPY package.json .
+#### COPY package.json .
 ###### - copies package.json to WORKDIR to enable Layer Caching and increase speed of Image build process / layer caching
 
 #### RUN npm/yarn install 
@@ -58,7 +58,7 @@
 ## 6. Layer Caching
 ##### N/B: Docker Layer Caching - prevents re-downloading dependencies from package.json if it already downloaded.
 ###### WORKDIR /app
-######COPY package.json .
+###### COPY package.json .
 ###### RUN npm/yarn install
 ###### COPY . .
 ###### EXPOSE 4000
