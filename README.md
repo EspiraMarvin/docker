@@ -26,19 +26,19 @@
 ###### - working directory
 
 ####COPY package.json .
-######- copies package.json to WORKDIR to enable Layer Caching and increase speed of Image build process / layer caching
+###### - copies package.json to WORKDIR to enable Layer Caching and increase speed of Image build process / layer caching
 
 #### RUN npm/yarn install 
-######- Install project dependencies
+###### - Install project dependencies
 
 #### COPY . . 
-######- copies the project files/folder to the working directory
+###### - copies the project files/folder to the working directory
 
 #### EXPOSE 4000 (not compulsory but recommended)
-######- specifies the port the project will run on
+###### - specifies the port the project will run on
 
 #### CMD ["npm", "run", "dev"]
-######- command to run the project from package.json (npm run dev)
+###### - command to run the project from package.json (npm run dev)
 
 
 ### Containers
