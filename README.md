@@ -1,6 +1,18 @@
 # docker-crash-course
 All course files for the Docker Crash Course
+##Docker
+####-It's a tool for managing containers
 ## 1. Images and Containers
+
+### Images
+##### Features
+- Blue print for containers
+- They're read only (can not be edited, only a new one can be created)
+##### More Features
+
+- s
+### Containers
+
 ## 2. Parent Images and Docker Hub
 ## 3. Dockerfile
 ## 4. dockerignore
