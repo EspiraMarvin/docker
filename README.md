@@ -80,7 +80,7 @@
 ##### $ docker container rm <containername> = deletes/removes a container
 
 ### To delete all Images and Containers 
-####  $ docker system prune -a
+#####  $ docker system prune -a
 
 
 
