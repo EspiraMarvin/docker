@@ -94,5 +94,7 @@
 
 ## 8. Volumes
 ## 9. Docker compose
-(credits: The Net Ninja)
-  quasar docker -> https://medium.com/@jwdobken/develop-quasar-applications-with-docker-a19c38d4a6ac
+(credits: The Net Ninja) -DOCKER WITH NODE EXPRESS & REACT APP
+####
+
+For Vuejs Quasar docker -> https://medium.com/@jwdobken/develop-quasar-applications-with-docker-a19c38d4a6ac
