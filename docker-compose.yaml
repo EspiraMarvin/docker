@@ -1,6 +1,6 @@
 version: "3.3"
 services:
-  api:
+  myblogapi:
     build: ./api
     container_name: api_c
     ports:
@@ -8,3 +8,13 @@ services:
     volumes:
       - ./api:/app
       - ./app/node_modules
+  myblogapp:
+    build: ./myblog
+    container_name: myblog_c
+    ports:
+      - '3000:3000'
+    volumes:
+      - ./myblog:/app
+      - ./myblog/node_modules
+    stdin_open: true
+    tty: true
