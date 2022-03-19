@@ -79,6 +79,12 @@
 ##### $ docker ps -a = shows list of containers
 ##### $ docker container rm <containername> = deletes/removes a container
 
+### To delete all Containers 
+#####  $ docker system prune
+
+#### with docker compose - remove all images and volumes
+#####  $ docker-compose down --rmi all -v
+
 ### To delete all Images and Containers 
 #####  $ docker system prune -a
 
