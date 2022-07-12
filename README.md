@@ -95,15 +95,28 @@
 ## 8. Volumes
 ## 9. Docker compose
 
-#####  $ docker-compose up = tells docker.compose.yaml to build the images and create containers
+#####  $ docker-compose up =  builds the images if the images do not exist and starts the containers:
 
-##### $ docker-images = to see the running container that was created
+#####  $ docker compose up --detach = starts the containers in the background and leaves them running.
+
+#####  $ docker-compose up --build = tells docker.compose.yaml to build the images and create containers
+
+#####  $ docker-images = to see the running container that was created
  
 #####  $ docker-compose down = stops container and also delete the container, but the images and volumes will remain.
 
 #####  $ docker-compose down --rmi all = stops container and also delete the container, plus all images that were created.
 
 #####  $ docker-compose down --rmi all -v = stops container and also delete the container, plus all images and the volumes were created.
+
+#####  $ docker-compose build = only builds the images, does not start the containers.
+
+#####  $ docker-compose --build =  skips the image build process, if the images aren't built beforehand, it fails.
+
+#####  $ docker-compose up --no-build =  --build option, forces to build the images even when not needed.
+
+#####  $ docker-compose build --no-cache =  disables the Docker build cache in the image creation process. 
+
 
 (credits: The Net Ninja) -DOCKER WITH NODE EXPRESS & REACT APP
 ####
