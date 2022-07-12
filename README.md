@@ -97,7 +97,7 @@
 
 #####  $ docker-compose up =  builds the images if the images do not exist and starts the containers:
 
-#####  $ docker compose up --detach = starts the containers in the background and leaves them running.
+#####  $ docker-compose up --detach = starts the containers in the background and leaves them running.
 
 #####  $ docker-compose up --build = tells docker.compose.yaml to build the images and create containers
 
