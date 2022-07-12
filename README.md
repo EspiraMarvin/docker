@@ -94,6 +94,17 @@
 
 ## 8. Volumes
 ## 9. Docker compose
+
+#####  $ docker-compose up = tells docker.compose.yaml to build the images and create containers
+
+##### $ docker-images = to see the running container that was created
+ 
+#####  $ docker-compose down = stops container and also delete the container, but the images and volumes will remain.
+
+#####  $ docker-compose down --rmi all = stops container and also delete the container, plus all images that were created.
+
+#####  $ docker-compose down --rmi all -v = stops container and also delete the container, plus all images and the volumes were created.
+
 (credits: The Net Ninja) -DOCKER WITH NODE EXPRESS & REACT APP
 ####
 
