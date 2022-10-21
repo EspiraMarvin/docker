@@ -72,7 +72,7 @@
 ##### $ docker images = shows list of images
 ##### $ docker image rm <imagename> = deletes an image
 ##### $ docker image rm <imagename> -f = deletes an image regardless if its being used in/by a container
-
+##### $ docker rmi $(docker images -q) =  deletes all images
 ### Containers(commands)
 
 ##### $ docker ps = shows list of containers runnning
